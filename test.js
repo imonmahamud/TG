@@ -20,3 +20,11 @@ function arrayReverse(arr,firstIndex,lastIndex){
     return arr
 }
 console.log(arrayReverse(arr,0,arr.length-1))
+//factorial By recursive function 
+function fact(n){
+    if(n==1){
+        return 1
+    }
+    return n*fact(n-1)
+}
+console.log(fact(5))
