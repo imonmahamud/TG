@@ -26,5 +26,5 @@ console.log(arrayReverse(arr,0,arr.length-1))
 function sqr(n){
     return n*n
 }
-var result=sqr(2)
-console.log(result)
+console.log(sqr(2));
+
