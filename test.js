@@ -20,3 +20,10 @@ function arrayReverse(arr,firstIndex,lastIndex){
     return arr
 }
 console.log(arrayReverse(arr,0,arr.length-1))
+// pure function 
+//same output for same args until change
+//don't conflict another part of the code
+function sqr(n){
+    return n*n
+}
+console.log(sqr(3))
