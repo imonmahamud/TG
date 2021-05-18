@@ -1,5 +1,5 @@
 //array traverse and sum the array value by recursive function in javascript
-var arr=[1,2,3,4]
+var arr=[1,2,3,4,5,6,7,8]
 function arrayTraverseSum(arr,lastIndex){
     if(lastIndex<0){
         return 0
@@ -8,7 +8,7 @@ function arrayTraverseSum(arr,lastIndex){
 }
 console.log(arrayTraverseSum(arr,arr.length-1))
 //this is for array traverse and reverse array by recursive function in javascript
-var arr=[1,2,3,4,5,6]
+var arr=[1,2,3,4,5,6,7,8,9,10,11,12]
 function arrayReverse(arr,firstIndex,lastIndex){
     if(firstIndex>lastIndex){
         return
