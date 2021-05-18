@@ -29,5 +29,14 @@ function sqr(n){
 console.log(sqr(2));
 //we can also do that
 var result =sqr(5)
+console.log(result); 
+
+//simple implementation of foreach function
+var array=[1,2,3,4,5,6]
+var result =0
+array.forEach(function(value) {    
+    result+=value 
+    
+})
 console.log(result);
 
