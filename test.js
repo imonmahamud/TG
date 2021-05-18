@@ -27,4 +27,7 @@ function sqr(n){
     return n*n
 }
 console.log(sqr(2));
+//we can also do that
+var result =sqr(5)
+console.log(result);
 
