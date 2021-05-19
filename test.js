@@ -47,11 +47,10 @@ console.log(add(4,5));
 //Return function example here
 function greeting(msg){
     return function (name) {
-        return msg + " " + name;
+        console.log(msg + " " + name);
     }
 }
 var hello=greeting('Good Morning')
 var result=hello('Twinkle cats')
-console.log(result);
 
 
