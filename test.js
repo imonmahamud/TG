@@ -45,12 +45,12 @@ function add(a,b){
 }
 console.log(add(4,5));
 //Return function example here
-function greeting(msg){
+function greetings(msg){
     return function (name) {
         console.log(msg + " " + name);
     }
 }
-var hello=greeting('Good Morning')
+var hello=greetings('Good Morning')
 var result=hello('Twinkle cats')
 
 
