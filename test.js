@@ -43,7 +43,7 @@ console.log(result);
 function add(a,b,c){
     return a+b+c;
 }
-console.log(add(4,5));
+console.log(add(4,5,7));
 //Return function example here
 function greetings(msg){
     return function (name) {
