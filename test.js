@@ -39,4 +39,9 @@ array.forEach(function(value) {
     
 })
 console.log(result);
+//function for add 
+function add(a,b){
+    return a+b;
+}
+console.log(add(4,5));
 
